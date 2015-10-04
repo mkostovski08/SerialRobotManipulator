@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/27/14||16:34:55" using="SimMechanics Link Version 4.2" from="SolidWorks 21.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AssemSM2G" uid="AssemSM2G" version="195">
+<AssemblyFile name="AssemSM2G.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Assem1-1" uid="Assem1-1" grounded="true" entityUid="Assem1" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Motor1-1" uid="Motor1-1" grounded="true" entityUid="Motor1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem2-1" uid="Assem2-1" entityUid="Assem2" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="straf3_dolg11-7" uid="straf3_dolg11-7" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.0206943 0.02726 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-8" uid="straf3_dolg11-8" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.0206943 0.03742 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-1" uid="navrtka1-1" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0168143 0.03742 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-2" uid="navrtka1-2" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0168143 0.02726 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-3" uid="navrtka1-3" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0168143 0.02726 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-4" uid="navrtka1-4" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0168143 0.03742 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-5" uid="navrtka1-5" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0295743 0.03742 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-6" uid="navrtka1-6" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0295743 0.02726 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-8" uid="navrtka1-8" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0295743 0.02726 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka1-7" uid="navrtka1-7" entityUid="navrtka1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0295743 0.03742 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor2-2" uid="Motor2-2" entityUid="Motor2*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.0128743 0.03234 0.0101954</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-6" uid="straf3_dolg11-6" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.0206943 0.03742 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-3" uid="straf3_dolg11-3" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0256943 0.03742 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-4" uid="straf3_dolg11-4" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0256943 0.02726 0.02414</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor2-1" uid="Motor2-1" entityUid="Motor2*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.0335143 0.03234 0.0101954</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-2" uid="straf3_dolg11-2" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0256943 0.02726 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-5" uid="straf3_dolg11-5" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.0206943 0.02726 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg11-1" uid="straf3_dolg11-1" entityUid="straf3_dolg11*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0256943 0.03742 -0.02412</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1-1" uid="Part1-1" grounded="true" entityUid="Part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem3-1" uid="Assem3-1" entityUid="Assem3" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0128757 0.03234 0.0101954</Translation>
+</Transform>
+<Instance name="Part2-1" uid="Part2-1" grounded="true" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.04639</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem4-1" uid="Assem4-1" entityUid="Assem4" rigid="true">
+<Transform>
+<Rotation>0 -1 0 -1 0 0 0 0 -1</Rotation>
+<Translation>-0.0335143 0.18234 -0.203105</Translation>
+</Transform>
+<Instance name="straf3_dolg37-6" uid="straf3_dolg37-6" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.00508 -0.04074 -0.199355</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-5" uid="straf3_dolg37-5" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.00508 -0.04074 -0.199355</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-7" uid="straf3_dolg37-7" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.00508 -0.04074 -0.247615</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-8" uid="straf3_dolg37-8" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>0 0 1 -5.36193e-016 -1 0 1 -5.36193e-016 0</Rotation>
+<Translation>0.00508 -0.04074 -0.247615</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-1" uid="navrtka2-1" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>-0.00508 -0.00632 0.0139446</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-2" uid="navrtka2-2" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>0.00508 -0.00632 0.0139446</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-3" uid="navrtka2-3" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>-0.00508 -0.00632 -0.0343154</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-4" uid="navrtka2-4" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>0.00508 -0.00632 -0.0343154</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-5" uid="navrtka2-5" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>-0.00508 -0.00632 -0.199355</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-6" uid="navrtka2-6" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>-0.00508 -0.00632 -0.247615</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-7" uid="navrtka2-7" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>0.00508 -0.00632 -0.247615</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka2-8" uid="navrtka2-8" entityUid="navrtka2*:*Default">
+<Transform>
+<Rotation>0.998982 0.0450997 0 0 0 -1 -0.0450997 0.998982 0</Rotation>
+<Translation>0.00508 -0.00632 -0.199355</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor3-1" uid="Motor3-1" grounded="true" entityUid="Motor3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor3-2" uid="Motor3-2" entityUid="Motor3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.2133</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3-1" uid="Part3-1" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>0 -1 0 -1 0 0 0 0 -1</Rotation>
+<Translation>0 -0.0356 -0.223485</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4-1" uid="Part4-1" entityUid="Part4*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0 -0.01282 -0.0101854</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-1" uid="straf3_dolg37-1" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.00508 -0.04074 0.0139446</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-2" uid="straf3_dolg37-2" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.00508 -0.04074 0.0139446</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-3" uid="straf3_dolg37-3" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>-0.00508 -0.04074 -0.0343154</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg37-4" uid="straf3_dolg37-4" entityUid="straf3_dolg37*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.00508 -0.04074 -0.0343154</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem5-1" uid="Assem5-1" entityUid="Assem5" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1.05471e-015 1 0 -1 9.4369e-016</Rotation>
+<Translation>-0.00896425 0.18237 -0.253105</Translation>
+</Transform>
+<Instance name="straf3_dolg10-2" uid="straf3_dolg10-2" entityUid="straf3_dolg10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.00135 -0.01988</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10-3" uid="straf3_dolg10-3" entityUid="straf3_dolg10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.00135 0.01112</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10-4" uid="straf3_dolg10-4" entityUid="straf3_dolg10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.01505 0.00135 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka3-1" uid="navrtka3-1" entityUid="navrtka3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.05471e-015 -1 0 1 9.4369e-016</Rotation>
+<Translation>0.01505 -0.0065 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka3-2" uid="navrtka3-2" entityUid="navrtka3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 -0.0035 0.01112</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka3-3" uid="navrtka3-3" entityUid="navrtka3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 -0.0035 -0.01988</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka3-4" uid="navrtka3-4" entityUid="navrtka3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.05471e-015 -1 0 1 9.4369e-016</Rotation>
+<Translation>-0.01505 -0.0065 0</Translation>
+</Transform>
+</Instance>
+<Instance name="part6-1" uid="part6-1" grounded="true" entityUid="part6*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="part5-1" uid="part5-1" entityUid="part5*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>-0.02705 -0.05 -3e-005</Translation>
+</Transform>
+</Instance>
+<Instance name="part5-2" uid="part5-2" entityUid="part5*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0.02705 -0.05 3e-005</Translation>
+</Transform>
+</Instance>
+<Instance name="MiniServo1-1" uid="MiniServo1-1" entityUid="MiniServo1*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0 -0.0172 -0.00438</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10-1" uid="straf3_dolg10-1" entityUid="straf3_dolg10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.01505 0.00135 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem6-1" uid="Assem6-1" entityUid="Assem6" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00896425 0.182369 -0.263305</Translation>
+</Transform>
+<Instance name="fakjacka_osnova-1" uid="fakjacka_osnova-1" grounded="true" entityUid="fakjacka_osnova*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="drzac za mini servo-1" uid="drzac za mini servo-1" entityUid="drzac za mini servo*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02013 -0.0102 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="MiniServo2-1" uid="MiniServo2-1" entityUid="MiniServo2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.01562 -0.0274 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="Part7-1" uid="Part7-1" entityUid="Part7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0082 -0.0605</Translation>
+</Transform>
+</Instance>
+<Instance name="Part7-2" uid="Part7-2" entityUid="Part7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0082 -0.0205</Translation>
+</Transform>
+</Instance>
+<Instance name="Part11-1" uid="Part11-1" entityUid="Part11*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part12-1" uid="Part12-1" entityUid="Part12*:*Default">
+<Transform>
+<Rotation>0 -1.11022e-015 1 -1 0 0 0 -1 -1.11022e-015</Rotation>
+<Translation>-0.007 -0.0095 -0.0015</Translation>
+</Transform>
+</Instance>
+<Instance name="Part12-2" uid="Part12-2" entityUid="Part12*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.007 0.0095 -0.0015</Translation>
+</Transform>
+</Instance>
+<Instance name="Part12-3" uid="Part12-3" entityUid="Part12*:*Default">
+<Transform>
+<Rotation>-1.34509e-015 0 -1 1 0 -1.34509e-015 0 -1 0</Rotation>
+<Translation>0.007 0.0095 -0.0015</Translation>
+</Transform>
+</Instance>
+<Instance name="Part12-4" uid="Part12-4" entityUid="Part12*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0.007 -0.0095 -0.0015</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16-1" uid="straf3_dolg16-1" entityUid="straf3_dolg16*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0.0015 -0.0605</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16-2" uid="straf3_dolg16-2" entityUid="straf3_dolg16*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0.0015 -0.0205</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dol8-1" uid="straf3_dol8-1" entityUid="straf3_dol8*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.00012 -0.0082 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dol8-2" uid="straf3_dol8-2" entityUid="straf3_dol8*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.03112 -0.0082 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13-1" uid="straf3_dolg13-1" entityUid="straf3_dolg13*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.007 0.0045 -0.0125</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13-2" uid="straf3_dolg13-2" entityUid="straf3_dolg13*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0.007 0.0045 -0.0125</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10_2-1" uid="straf3_dolg10_2-1" entityUid="straf3_dolg10_2*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.007 0.0095 -0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10_2-2" uid="straf3_dolg10_2-2" entityUid="straf3_dolg10_2*:*Default">
+<Transform>
+<Rotation>0 -0.0434908 0.999054 0 0.999054 0.0434908 -1 0 0</Rotation>
+<Translation>0.007 -0.0095 -0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10_2-3" uid="straf3_dolg10_2-3" entityUid="straf3_dolg10_2*:*Default">
+<Transform>
+<Rotation>-1.22125e-015 1 0 0 0 -1 -1 -1.22125e-015 0</Rotation>
+<Translation>-0.007 -0.0095 -0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg10_2-4" uid="straf3_dolg10_2-4" entityUid="straf3_dolg10_2*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>0.007 0.0095 -0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-11" uid="navrtka4-11" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007 0.0095 0.003</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-12" uid="navrtka4-12" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.007 0.0095 0.003</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-13" uid="navrtka4-13" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.007 -0.0095 0.003</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-14" uid="navrtka4-14" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 -0.0117 -0.0205</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-15" uid="navrtka4-15" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007 -0.0095 0.003</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-16" uid="navrtka4-16" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>-0.00012 -0.0137 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-17" uid="navrtka4-17" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>0 -0.0117 -0.0605</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-18" uid="navrtka4-18" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.03112 -0.0137 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-19" uid="navrtka4-19" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.007 -0.006 -0.0125</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-20" uid="navrtka4-20" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.007 -0.006 -0.0125</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-21" uid="navrtka4-21" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.007 -0.004 -0.0705</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-22" uid="navrtka4-22" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.02 -0.004 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka4-23" uid="navrtka4-23" entityUid="navrtka4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.007 -0.004 -0.0705</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna1-1" uid="sajbna1-1" entityUid="sajbna1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0199989 0.0015 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna1-2" uid="sajbna1-2" entityUid="sajbna1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02 0.0015 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna1-3" uid="sajbna1-3" entityUid="sajbna1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02 -0.0025 -0.0405</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna1-4" uid="sajbna1-4" entityUid="sajbna1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.007 -0.0025 -0.0705</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna1-5" uid="sajbna1-5" entityUid="sajbna1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007 -0.0025 -0.0705</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna2-1" uid="sajbna2-1" entityUid="sajbna2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.007 0.0015 -0.0705</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna2-2" uid="sajbna2-2" entityUid="sajbna2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007 0.0015 -0.0705</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7_1-1" uid="Assem7_1-1" entityUid="Assem7_1" rigid="true">
+<Transform>
+<Rotation>0.253123 0.967434 0 -6.97888e-016 0 1 0.967434 -0.253123 7.68906e-016</Rotation>
+<Translation>-0.0289631 0.186369 -0.303805</Translation>
+</Transform>
+<Instance name="Part13-1" uid="Part13-1" grounded="true" entityUid="Part13*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part9-1" uid="Part9-1" entityUid="Part9*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0 0 0.0015</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13-2" uid="straf3_dolg13-2" entityUid="straf3_dolg13*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.013 0 0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka5-1" uid="navrtka5-1" entityUid="navrtka5*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.013 0 -0.003</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13-3" uid="straf3_dolg13-3" entityUid="straf3_dolg13*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>-0.0366854 -0.008 0.0055</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna4-1" uid="sajbna4-1" entityUid="sajbna4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.0366854 -0.008 0.0055</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna4-2" uid="sajbna4-2" entityUid="sajbna4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>-0.0366854 -0.008 0.0015</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7_2-1" uid="Assem7_2-1" entityUid="Assem7_2" rigid="true">
+<Transform>
+<Rotation>-0.143169 0.989698 0 -8.14264e-016 0 1 0.989698 0.143169 7.87536e-016</Rotation>
+<Translation>0.0110357 0.186369 -0.303805</Translation>
+</Transform>
+<Instance name="Part15-1" uid="Part15-1" grounded="true" entityUid="Part15*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part14-1" uid="Part14-1" entityUid="Part14*:*Default">
+<Transform>
+<Rotation>-0.993712 0 -0.111964 0.111964 0 -0.993712 0 -1 0</Rotation>
+<Translation>0 0 0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna5-1" uid="sajbna5-1" entityUid="sajbna5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.0355591 0.0120572 0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna5-2" uid="sajbna5-2" entityUid="sajbna5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.0355591 0.0120572 0.0005</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna5-3" uid="sajbna5-3" entityUid="sajbna5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 0 0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13_2-1" uid="straf3_dolg13_2-1" entityUid="straf3_dolg13_2*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>-0.0355591 0.0120572 0.0055</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg13_2-2" uid="straf3_dolg13_2-2" entityUid="straf3_dolg13_2*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>-0.0129183 0.00145554 0.0045</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16_5-1" uid="straf3_dolg16_5-1" entityUid="straf3_dolg16_5*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 1 1 0 0</Rotation>
+<Translation>0 0 0.0055</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka6-1" uid="navrtka6-1" entityUid="navrtka6*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0129183 0.00145554 -0.003</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7_3-1" uid="Assem7_3-1" entityUid="Assem7_3" rigid="true">
+<Transform>
+<Rotation>-0.401346 0 0.915927 7.6927e-016 1 6.6033e-016 -0.915927 7.87552e-016 -0.401346</Rotation>
+<Translation>-0.0159643 0.187869 -0.333805</Translation>
+</Transform>
+<Instance name="Part10-1" uid="Part10-1" grounded="true" entityUid="Part10*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16_2-1" uid="straf3_dolg16_2-1" entityUid="straf3_dolg16_2*:*Default">
+<Transform>
+<Rotation>0 -1 -1.05471e-015 1 0 0 0 -1.05471e-015 1</Rotation>
+<Translation>0 0.004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna6-1" uid="sajbna6-1" entityUid="sajbna6*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.003 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna6-2" uid="sajbna6-2" entityUid="sajbna6*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 0.003 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna6-3" uid="sajbna6-3" entityUid="sajbna6*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 -0.001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16_2-2" uid="straf3_dolg16_2-2" entityUid="straf3_dolg16_2*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0.03 0.004 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7_4-1" uid="Assem7_4-1" entityUid="Assem7_4" rigid="true">
+<Transform>
+<Rotation>0.401315 -7.07595e-016 0.91594 1.00484e-015 1 0 -0.91594 7.87031e-016 0.401315</Rotation>
+<Translation>-0.00196425 0.187869 -0.333805</Translation>
+</Transform>
+<Instance name="Part16-1" uid="Part16-1" grounded="true" entityUid="Part16*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna7-1" uid="sajbna7-1" entityUid="sajbna7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.003 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna7-2" uid="sajbna7-2" entityUid="sajbna7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 0.003 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna7-3" uid="sajbna7-3" entityUid="sajbna7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 -0.001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16_3-1" uid="straf3_dolg16_3-1" entityUid="straf3_dolg16_3*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0 0.004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="straf3_dolg16_3-2" uid="straf3_dolg16_3-2" entityUid="straf3_dolg16_3*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.03 0.004 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7_5-1" uid="Assem7_5-1" entityUid="Assem7_5" rigid="true">
+<Transform>
+<Rotation>0.599464 0 -0.800402 8.28421e-016 -1 0 -0.800402 -7.80406e-016 -0.599464</Rotation>
+<Translation>-0.0459886 0.185369 -0.33727</Translation>
+</Transform>
+<Instance name="Part8-1" uid="Part8-1" grounded="true" entityUid="Part8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna8-1" uid="sajbna8-1" entityUid="sajbna8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 0.0015 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna8-2" uid="sajbna8-2" entityUid="sajbna8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0015 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka7-1" uid="navrtka7-1" entityUid="navrtka7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.03 0.004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka7-2" uid="navrtka7-2" entityUid="navrtka7*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 0.004 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assem7.6-1" uid="Assem7.6-1" entityUid="Assem7" rigid="true">
+<Transform>
+<Rotation>-0.599481 -5.96786e-016 0.800389 0 1 9.03158e-016 -0.800389 7.87571e-016 -0.599481</Rotation>
+<Translation>0.0280596 0.185369 -0.337271</Translation>
+</Transform>
+<Instance name="Part17-1" uid="Part17-1" grounded="true" entityUid="Part17*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka8-1" uid="navrtka8-1" entityUid="navrtka8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.03 -0.004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="navrtka8-2" uid="navrtka8-2" entityUid="navrtka8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0 -0.004 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna9-1" uid="sajbna9-1" entityUid="sajbna9*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.0025 0</Translation>
+</Transform>
+</Instance>
+<Instance name="sajbna9-2" uid="sajbna9-2" entityUid="sajbna9*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03 -0.0025 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem1-1</Uid>
+<Uid>Motor1-1</Uid>
+</InstancePath>
+<Position>0 0.0045 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem2-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 0.0025 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1-1</Uid>
+<Uid>Motor1-1</Uid>
+</InstancePath>
+<Position>0 -0.0025 -0.0203454</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2-1</Uid>
+<Uid>Part1-1</Uid>
+</InstancePath>
+<Position>0 -0.0025 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem2-1</Uid>
+<Uid>Motor2-1</Uid>
+</InstancePath>
+<Position>0 0.0045 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem3-1</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem2-1</Uid>
+<Uid>Motor2-1</Uid>
+</InstancePath>
+<Position>0 -0.0025 -0.0203454</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3-1</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem3-1</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0.15 0.0025</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Motor3-2</Uid>
+</InstancePath>
+<Position>0 0.0045 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem3-1</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0.0025</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Motor3-2</Uid>
+</InstancePath>
+<Position>0 -0.0025 -0.0203454</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Motor3-1</Uid>
+</InstancePath>
+<Position>0 0.0045 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem5-1</Uid>
+<Uid>part5-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem4-1</Uid>
+<Uid>Motor3-1</Uid>
+</InstancePath>
+<Position>0 -0.0025 -0.0203454</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem5-1</Uid>
+<Uid>part5-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem5-1</Uid>
+<Uid>MiniServo1-1</Uid>
+</InstancePath>
+<Position>-0.00437889 0.0289 0</Position>
+<Axis>1.11022e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>Part11-1</Uid>
+</InstancePath>
+<Position>0 0.0015 0</Position>
+<Axis>-1.11022e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem5-1</Uid>
+<Uid>MiniServo1-1</Uid>
+</InstancePath>
+<Position>-0.00525 0.0259 -5.06525e-010</Position>
+<Axis>-1.11022e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>Part11-1</Uid>
+</InstancePath>
+<Position>0 0.0015 0</Position>
+<Axis>1.11022e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>MiniServo2-1</Uid>
+</InstancePath>
+<Position>-0.00437889 0.0379 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_1-1</Uid>
+<Uid>Part13-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>sajbna1-1</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_1-1</Uid>
+<Uid>Part13-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0015</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>fakjacka_osnova-1</Uid>
+</InstancePath>
+<Position>0.02 -0.0015 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_2-1</Uid>
+<Uid>Part15-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>sajbna1-2</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_2-1</Uid>
+<Uid>Part15-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0015</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>fakjacka_osnova-1</Uid>
+</InstancePath>
+<Position>-0.007 -0.0015 -0.03</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_3-1</Uid>
+<Uid>Part10-1</Uid>
+</InstancePath>
+<Position>0 0.003 0</Position>
+<Axis>-1.86006e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>sajbna2-1</Uid>
+</InstancePath>
+<Position>0 0.004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_3-1</Uid>
+<Uid>Part10-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.86006e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>fakjacka_osnova-1</Uid>
+</InstancePath>
+<Position>0.007 -0.0015 -0.03</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_4-1</Uid>
+<Uid>Part16-1</Uid>
+</InstancePath>
+<Position>0 0.003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem6-1</Uid>
+<Uid>sajbna2-2</Uid>
+</InstancePath>
+<Position>0 0.004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_4-1</Uid>
+<Uid>Part16-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_1-1</Uid>
+<Uid>sajbna4-2</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_5-1</Uid>
+<Uid>Part8-1</Uid>
+</InstancePath>
+<Position>0 -0.0015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_1-1</Uid>
+<Uid>sajbna4-2</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_5-1</Uid>
+<Uid>Part8-1</Uid>
+</InstancePath>
+<Position>0 -0.0015 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_3-1</Uid>
+<Uid>sajbna6-3</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>-1.86006e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_5-1</Uid>
+<Uid>Part8-1</Uid>
+</InstancePath>
+<Position>0.03 -0.0015 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_2-1</Uid>
+<Uid>sajbna5-2</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7.6-1</Uid>
+<Uid>Part17-1</Uid>
+</InstancePath>
+<Position>0 -0.0015 0</Position>
+<Axis>-1.28721e-016 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7_4-1</Uid>
+<Uid>sajbna7-3</Uid>
+</InstancePath>
+<Position>0 0.001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assem7.6-1</Uid>
+<Uid>Part17-1</Uid>
+</InstancePath>
+<Position>0.03 -0.0015 0</Position>
+<Axis>-1.28721e-016 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7_4-1</Uid>
+<Uid>sajbna7-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem7.6-1</Uid>
+<Uid>Part17-1</Uid>
+</InstancePath>
+<Position>0 0.0015 0</Position>
+<Axis>-1.28721e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Assem1" uid="Assem1" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem2" uid="Assem2" version="234">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem3" uid="Assem3" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem3.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem4" uid="Assem4" version="253">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem4.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem5" uid="Assem5" version="189">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem5.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem6" uid="Assem6" version="425">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem6.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7_1" uid="Assem7_1" version="169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7_1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7_2" uid="Assem7_2" version="170">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7_3" uid="Assem7_3" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7_3.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7_4" uid="Assem7_4" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7_4.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7_5" uid="Assem7_5" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7_5.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem7" uid="Assem7" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem7.6.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="MiniServo1" uid="MiniServo1*:*Default" version="493">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MiniServo1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00713421</Mass>
+<CenterOfMass>-0.000330256 0.0122167 -5.6137e-008</CenterOfMass>
+<Inertia>4.18591e-007 4.67982e-007 7.05411e-007 -3.48535e-012 -3.55068e-012 -4.7489e-008</Inertia>
+</MassProperties>
+<GeometryFile name="MiniServo1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="0.427451" b="0.823529" a="1"/>
+<Diffuse r="0" g="0.427451" b="0.823529" a="1"/>
+<Specular r="0" g="0.427451" b="0.823529" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MiniServo2" uid="MiniServo2*:*Default" version="531">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MiniServo2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0071973</Mass>
+<CenterOfMass>-0.000365744 0.0124024 -5.56167e-008</CenterOfMass>
+<Inertia>4.47114e-007 4.6908e-007 7.34959e-007 -3.41089e-012 -3.56392e-012 -5.28521e-008</Inertia>
+</MassProperties>
+<GeometryFile name="MiniServo2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="0.427451" b="0.823529" a="1"/>
+<Diffuse r="0" g="0.427451" b="0.823529" a="1"/>
+<Specular r="0" g="0.427451" b="0.823529" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor1" uid="Motor1*:*Default" version="258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0293119</Mass>
+<CenterOfMass>0 -0.0228213 -0.00986507</CenterOfMass>
+<Inertia>7.20997e-006 5.13449e-006 4.03332e-006 1.91227e-007 -4.58751e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Diffuse r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Specular r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor2" uid="Motor2*:*Default" version="258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0293119</Mass>
+<CenterOfMass>0 -0.0228213 -0.00986507</CenterOfMass>
+<Inertia>7.20997e-006 5.13449e-006 4.03332e-006 1.91227e-007 -4.58751e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Diffuse r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Specular r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor3" uid="Motor3*:*Default" version="258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0293119</Mass>
+<CenterOfMass>0 -0.0228213 -0.00986507</CenterOfMass>
+<Inertia>7.20997e-006 5.13449e-006 4.03332e-006 1.91227e-007 -4.58751e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Diffuse r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Specular r="0.25098" g="0.25098" b="0.25098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part1" uid="Part1*:*Default" version="271">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0616941</Mass>
+<CenterOfMass>0 0.00921057 -1.4062e-006</CenterOfMass>
+<Inertia>4.82918e-005 7.00852e-005 5.16451e-005 -2.00657e-009 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part10" uid="Part10*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part10.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000880099</Mass>
+<CenterOfMass>0.015 0.0015 0</CenterOfMass>
+<Inertia>6.03057e-009 1.39683e-007 1.34972e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part10_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part11" uid="Part11*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part11.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00277097</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.10415e-007 4.28485e-007 2.22227e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part11_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part12" uid="Part12*:*Default" version="170">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part12.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000422384</Mass>
+<CenterOfMass>-0.00474062 0.00517362 0</CenterOfMass>
+<Inertia>1.00251e-008 5.40186e-009 1.18723e-008 0 0 -2.73e-009</Inertia>
+</MassProperties>
+<GeometryFile name="Part12_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part13" uid="Part13*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part13.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00368783</Mass>
+<CenterOfMass>7.45154e-005 0 0</CenterOfMass>
+<Inertia>3.78019e-007 3.74423e-007 7.46911e-007 -2.32012e-014 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part13_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part14" uid="Part14*:*Default" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part14.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000989621</Mass>
+<CenterOfMass>0.0177182 0.0015 -0.00282434</CenterOfMass>
+<Inertia>1.94482e-008 2.23501e-007 2.05538e-007 0 -4.57223e-008 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part14_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part15" uid="Part15*:*Default" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part15.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00368783</Mass>
+<CenterOfMass>7.40454e-005 -8.36962e-006 0</CenterOfMass>
+<Inertia>3.77974e-007 3.74468e-007 7.46911e-007 -2.32012e-014 0 4.01018e-010</Inertia>
+</MassProperties>
+<GeometryFile name="Part15_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part16" uid="Part16*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part16.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000880099</Mass>
+<CenterOfMass>0.015 0.0015 0</CenterOfMass>
+<Inertia>6.03057e-009 1.39683e-007 1.34972e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part16_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part17" uid="Part17*:*Default" version="207">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part17.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00220031</Mass>
+<CenterOfMass>0.0476972 0 0.00726285</CenterOfMass>
+<Inertia>1.02767e-007 1.61514e-006 1.53228e-006 0 3.29154e-007 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part17_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2" uid="Part2*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0214928</Mass>
+<CenterOfMass>0 0.075 0</CenterOfMass>
+<Inertia>5.12457e-005 1.19273e-006 5.23489e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3" uid="Part3*:*Default" version="302">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0257738</Mass>
+<CenterOfMass>0.00367721 4.39778e-008 -0.106715</CenterOfMass>
+<Inertia>0.000231121 0.000229446 1.95842e-006 9.65772e-011 -4.47265e-008 -1.33433e-012</Inertia>
+</MassProperties>
+<GeometryFile name="Part3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part4" uid="Part4*:*Default" version="199">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018</Mass>
+<CenterOfMass>0.0025 0 -0.10665</CenterOfMass>
+<Inertia>0.000139628 0.000138432 1.27177e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part4_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part7" uid="Part7*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part7.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.41947e-005</Mass>
+<CenterOfMass>0 0.00335 0</CenterOfMass>
+<Inertia>4.93872e-010 3.57827e-010 4.93872e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part7_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part8" uid="Part8*:*Default" version="237">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00220031</Mass>
+<CenterOfMass>0.0476972 0 0.00726285</CenterOfMass>
+<Inertia>1.02767e-007 1.61514e-006 1.53228e-006 0 3.29154e-007 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part8_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part9" uid="Part9*:*Default" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part9.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000989621</Mass>
+<CenterOfMass>0.0177182 0.0015 -0.00282434</CenterOfMass>
+<Inertia>1.94482e-008 2.23501e-007 2.05538e-007 0 -4.57223e-008 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part9_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drzac za mini servo" uid="drzac za mini servo*:*Default" version="185">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drzac za mini servo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000919756</Mass>
+<CenterOfMass>0.0130257 0.001 -2.99337e-007</CenterOfMass>
+<Inertia>1.11244e-007 2.27219e-007 1.16589e-007 0 6.26887e-012 0</Inertia>
+</MassProperties>
+<GeometryFile name="drzac za mini servo_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="fakjacka_osnova" uid="fakjacka_osnova*:*Default" version="237">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fakjacka_osnova.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0075665</Mass>
+<CenterOfMass>0 0 -0.000863435</CenterOfMass>
+<Inertia>2.42825e-006 3.46537e-006 1.04847e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="fakjacka_osnova_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka1" uid="navrtka1*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka2" uid="navrtka2*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka3" uid="navrtka3*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka4" uid="navrtka4*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka4_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka5" uid="navrtka5*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka5_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka6" uid="navrtka6*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka6_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka7" uid="navrtka7*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka7.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka7_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="navrtka8" uid="navrtka8*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="navrtka8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.2947e-005</Mass>
+<CenterOfMass>1.71375e-007 -4.38542e-009 2.4602e-009</CenterOfMass>
+<Inertia>1.30567e-010 1.30572e-010 1.98434e-010 2.04154e-014 0 7.49807e-015</Inertia>
+</MassProperties>
+<GeometryFile name="navrtka8_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="part5" uid="part5*:*Default" version="162">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="part5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00501235</Mass>
+<CenterOfMass>0.0263703 -2.11535e-007 0.00368549</CenterOfMass>
+<Inertia>1.55053e-007 1.55409e-006 1.59752e-006 -8.81577e-012 1.25554e-007 -2.24035e-011</Inertia>
+</MassProperties>
+<GeometryFile name="part5_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="part6" uid="part6*:*Default" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="part6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000920837</Mass>
+<CenterOfMass>0 0.00142483 -0.00284784</CenterOfMass>
+<Inertia>8.15406e-008 1.54474e-007 7.4253e-008 -4.55327e-011 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="part6_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna1" uid="sajbna1*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna2" uid="sajbna2*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.02655e-005</Mass>
+<CenterOfMass>0 0.002 0</CenterOfMass>
+<Inertia>1.73835e-010 2.13628e-010 1.73835e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna4" uid="sajbna4*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna4_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna5" uid="sajbna5*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna5_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna6" uid="sajbna6*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna6_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna7" uid="sajbna7*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna7.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna7_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna8" uid="sajbna8*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna8_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sajbna9" uid="sajbna9*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sajbna9.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.31969e-005</Mass>
+<CenterOfMass>0 0.0005 0</CenterOfMass>
+<Inertia>2.00686e-010 3.94172e-010 2.00686e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sajbna9_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dol8" uid="straf3_dol8*:*Default" version="304">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dol8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000108033</Mass>
+<CenterOfMass>-0.000541072 -2.72133e-006 3.40456e-007</CenterOfMass>
+<Inertia>2.64695e-010 1.09078e-009 1.09079e-009 -1.06867e-013 -2.86874e-013 3.57994e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dol8_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg10" uid="straf3_dolg10*:*Default" version="352">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg10.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000119715</Mass>
+<CenterOfMass>2.48738e-006 -0.00137718 -3.40454e-007</CenterOfMass>
+<Inertia>1.77166e-009 3.66956e-010 1.77166e-009 3.20018e-013 1.13048e-013 -9.13307e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg10_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg10_2" uid="straf3_dolg10_2*:*Default" version="266">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg10_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000123355</Mass>
+<CenterOfMass>-0.00133481 2.44957e-006 3.68027e-007</CenterOfMass>
+<Inertia>2.82691e-010 1.7521e-009 1.75208e-009 -1.28262e-013 -3.51234e-013 -9.61285e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg10_2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg11" uid="straf3_dolg11*:*Default" version="279">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg11.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000114876</Mass>
+<CenterOfMass>-0.00142702 -3.25101e-006 5.16508e-007</CenterOfMass>
+<Inertia>2.64218e-010 1.98919e-009 1.98917e-009 -1.31544e-013 -5.94385e-013 -2.34825e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg11_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg13" uid="straf3_dolg13*:*Default" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg13.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000129097</Mass>
+<CenterOfMass>-0.00215996 -2.88402e-006 4.47483e-007</CenterOfMass>
+<Inertia>2.80244e-010 2.89761e-009 2.89757e-009 -1.3102e-013 -6.57387e-013 2.34867e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg13_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg13_2" uid="straf3_dolg13_2*:*Default" version="312">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg13_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000123927</Mass>
+<CenterOfMass>-0.00166222 -3.71731e-006 5.07495e-007</CenterOfMass>
+<Inertia>2.7667e-010 2.34752e-009 2.3475e-009 -1.57563e-013 -7.54145e-013 9.18781e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg13_2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg16" uid="straf3_dolg16*:*Default" version="310">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg16.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000125688</Mass>
+<CenterOfMass>-0.00290573 4.22216e-006 4.95659e-007</CenterOfMass>
+<Inertia>2.65997e-010 4.17629e-009 4.17627e-009 -1.39748e-013 -7.51851e-013 6.92179e-014</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg16_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg16_2" uid="straf3_dolg16_2*:*Default" version="310">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg16_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000125688</Mass>
+<CenterOfMass>-0.00290573 4.22216e-006 4.95659e-007</CenterOfMass>
+<Inertia>2.65997e-010 4.17629e-009 4.17627e-009 -1.39748e-013 -7.51851e-013 6.92179e-014</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg16_2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg16_3" uid="straf3_dolg16_3*:*Default" version="310">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg16_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000125688</Mass>
+<CenterOfMass>-0.00290573 4.22216e-006 4.95659e-007</CenterOfMass>
+<Inertia>2.65997e-010 4.17629e-009 4.17627e-009 -1.39748e-013 -7.51851e-013 6.92179e-014</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg16_3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg16_5" uid="straf3_dolg16_5*:*Default" version="319">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg16_5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00012275</Mass>
+<CenterOfMass>-0.00276824 4.97271e-006 5.07378e-007</CenterOfMass>
+<Inertia>2.62569e-010 4.15255e-009 4.15253e-009 -1.46248e-013 -7.78308e-013 -6.11326e-013</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg16_5_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+<Part name="straf3_dolg37" uid="straf3_dolg37*:*Default" version="236">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="straf3_dolg37.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.000251255</Mass>
+<CenterOfMass>-1.39048e-006 -0.0125974 -2.14511e-007</CenterOfMass>
+<Inertia>3.97137e-008 4.77052e-010 3.97136e-008 1.236e-012 1.5502e-013 -1.2347e-012</Inertia>
+</MassProperties>
+<GeometryFile name="straf3_dolg37_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Diffuse r="0.792157" g="0.819608" b="0.933333" a="1"/>
+<Specular r="0.396078" g="0.409804" b="0.466667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.4</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
